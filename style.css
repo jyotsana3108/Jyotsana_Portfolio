@@ -33,6 +33,10 @@ body
 {
   color: #fff !important;
 }
+.contact{
+  background: #20c997;;
+}
+
 #header{
    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
