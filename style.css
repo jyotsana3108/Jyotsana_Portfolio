@@ -1,0 +1,87 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.nav-bar
+{
+     top: 0;
+     position: sticky;
+     z-index: 2;
+}
+.navbar
+{
+    background-color: #000;
+}
+.nav-bar .fa-bars
+{
+    font-size: 35px;
+    color: #fff;
+
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar-nav
+{
+  float:right;
+    text-align: right;
+}
+.nav-link
+{
+  color: #fff !important;
+}
+#header{
+   height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+.user-box
+{
+   top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.user-box h1
+{
+    color:#fff;
+    font-weight: bold;
+    margin: 10px;
+    font-style: italic;
+}
+.user-box p
+{
+    color:#fff;
+    font-style: italic;
+
+}
+.academics
+{
+   padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+}
+.skills
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.skills h1
+{
+    margin-bottom: 15px;
+}
+.works
+{
+   padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+}
+.experience
+{
+   padding-top: 50px;
+    padding-bottom: 30px;
+    background: #fff;
+    border-right: 10px;
+}
